@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html table </title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <style>
+        table{
+            border-collapse: collapse;
+            border: 2px solid black;
+
+        }
+        th{
+            font-weight: bold;
+            background: grey;
+        }
+        td,th{
+            border: 2px solid black;
+            padding:3px 7px;
+            text-align: center;
+        }
+        thead > tr > td{
+            font-size: 25px;
+        }
+    </style>
+   
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="jony.html">Home</a></li>
+                <li> <a href="blog.html">Blog</a></li>
+                <li><a href="semantic.html">Feature</a></li>
+                <li><a href="table.html">Table</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <table>
+        <thead>
+            <tr>
+                <td>
+                    Date
+                </td>
+                <td>Group</td>
+                <td>Plan Qty</td>
+                <td>Actual Finish Qty</td>
+                <td>Clear Backlog</td>
+                <td>Current Backlog</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2023457</td>
+                <td>Dc Assembly</td>
+                <td>50</td>
+                <td>8</td>
+                <td>6</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>20234572</td>
+                <td>sina assembly</td>
+                <td>47</td>
+                <td>9</td>
+                <td>7</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>20234573</td>
+                <td>Dc Test</td>
+                <td>87</td>
+                <td>5</td>
+                <td>9</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>202765434</td>
+                <td>sina Test</td>
+                <td>65</td>
+                <td>8</td>
+                <td>7</td>
+                <td>2</td>
+            </tr>
+            
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Total : 78</td>
+            </tr>
+
+        </tfoot>
+    </table>
+
+
+    <table>
+        <thead>
+            <tr>
+                <td colspan="6" >Time Table</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="7" style="font-size: 25px;">Hours</td>
+                <td style="font-size: 20px;">Mon</td>
+                <td style="font-size: 20px;">Tue</td>
+                <td style="font-size: 20px;">Wed</td>
+                <td style="font-size: 20px;">Thu</td>
+                <td style="font-size: 20px;">Fri</td>
+            </tr>
+            <tr>
+                <td>
+                    Math
+                </td>
+                <td>Science</td>
+                <td>English</td>
+                <td>Biology</td>
+                <td>Physics</td>
+                
+            </tr>
+            <tr>
+                <td>
+                    Math
+                </td>
+                <td>English</td>
+                <td>Economics</td>
+                <td>Biology</td>
+                <td>Chemistry</td>
+                
+
+
+            </tr>
+            <tr>
+                <td>Physics</td>
+                <td>Economics</td>
+                <td>Biology</td>
+                <td>Bangla</td>
+                <td>Higher Math</td>
+                
+            </tr>
+            <tr>
+                <td colspan="6" style="font-size: 25px;">Launch</td>
+            </tr>
+            <tr>
+                <td>Math</td>
+                <td>Chemistry</td>
+                <td>General knowledge</td>
+                <td rowspan="2"colspan="2" style="font-size: 25px;">Project</td>
+            </tr>
+            <tr>
+                <td>Math</td>
+                <td>English</td>
+                <td>Bangla</td>
+            </tr>
+           
+
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+    </table>
+    </main>
+    
+</body>
+</html>
